@@ -1,0 +1,109 @@
+{
+  "products": [
+    {
+      "id": "6400c151-2bd6-4446-b0a5-4f1e33954051",
+      "name": "Espresso pequeno",
+      "imageUrl": "./images/6400c151-2bd6-4446-b0a5-4f1e33954051.jpg",
+      "price": "5",
+      "categoryName": "Bebidas quentes"
+    },
+    {
+      "id": "6a84952b-1111-43be-bc3c-0823466c0363",
+      "name": "Mochaccino",
+      "imageUrl": "./images/6a84952b-1111-43be-bc3c-0823466c0363.jpg",
+      "price": "8",
+      "categoryName": "Bebidas quentes"
+    },
+    {
+      "id": "b31d44dd-348e-414c-92a3-bc2c12a12203",
+      "name": "Cappuccino",
+      "imageUrl": "./images/b31d44dd-348e-414c-92a3-bc2c12a12203.jpg",
+      "price": "7",
+      "categoryName": "Bebidas quentes"
+    },
+    {
+      "id": "6ab5a2de-3689-4862-99b9-507f6c5c7db4",
+      "name": "Café na prensa francesa",
+      "imageUrl": "./images/6ab5a2de-3689-4862-99b9-507f6c5c7db4.png",
+      "price": "12",
+      "categoryName": "Bebidas quentes"
+    },
+    {
+      "id": "e9ceb907-a046-493b-97b7-ded4ac03d027",
+      "name": "Chá de hibisco",
+      "imageUrl": "./images/e9ceb907-a046-493b-97b7-ded4ac03d027.jpg",
+      "price": "5",
+      "categoryName": "Bebidas quentes"
+    },
+    {
+      "id": "21106b3f-32aa-43dd-be14-5b32b59a0bea",
+      "name": "Chá de cidreira",
+      "imageUrl": "./images/21106b3f-32aa-43dd-be14-5b32b59a0bea.jpg",
+      "price": "4",
+      "categoryName": "Bebidas quentes"
+    },
+    {
+      "id": "eefe3f06-1f32-4452-9f03-52e2d56a0fa5",
+      "name": "Chá de camomila",
+      "imageUrl": "./images/eefe3f06-1f32-4452-9f03-52e2d56a0fa5.jpeg",
+      "price": "6",
+      "categoryName": "Bebidas quentes"
+    },
+    {
+      "id": "253e7d11-310a-4419-85cf-244b02081b38",
+      "name": "Chá verde com gengibre",
+      "imageUrl": "./images/253e7d11-310a-4419-85cf-244b02081b38.jpg",
+      "price": "8",
+      "categoryName": "Bebidas quentes"
+    },
+    {
+      "id": "36b5e2c2-448a-4a55-8684-e583fc0cfb4e",
+      "name": "Cesta de pão de queijo",
+      "imageUrl": "./images/36b5e2c2-448a-4a55-8684-e583fc0cfb4e.jpg",
+      "price": "14",
+      "categoryName": "Salgados"
+    },
+    {
+      "id": "3ee3ee14-29f6-48b0-90c1-1907f585513c",
+      "name": "Pão na chapa com manteiga",
+      "imageUrl": "./images/3ee3ee14-29f6-48b0-90c1-1907f585513c.jpg",
+      "price": "7.5",
+      "categoryName": "Salgados"
+    },
+    {
+      "id": "4cc21cb1-55f6-419d-874f-1bafda4e42c5",
+      "name": "Pão na chapa com requeijão",
+      "imageUrl": "./images/4cc21cb1-55f6-419d-874f-1bafda4e42c5.jpg",
+      "price": "8.5",
+      "categoryName": "Salgados"
+    },
+    {
+      "id": "363f8bec-fa39-44d7-a979-ad5cac82af1f",
+      "name": "Misto quente",
+      "imageUrl": "./images/363f8bec-fa39-44d7-a979-ad5cac82af1f.jpg",
+      "price": "11",
+      "categoryName": "Salgados"
+    },
+    {
+      "id": "290e5ec3-57d8-40cd-886c-58595651c620",
+      "name": "Sanduíche natural",
+      "imageUrl": "./images/290e5ec3-57d8-40cd-886c-58595651c620.png",
+      "price": "18.5",
+      "categoryName": "Salgados"
+    },
+    {
+      "id": "7a26cef5-cd0e-410e-b4d2-95b4c4f73422",
+      "name": "Tapioca com queijo",
+      "imageUrl": "./images/7a26cef5-cd0e-410e-b4d2-95b4c4f73422.jpg",
+      "price": "14",
+      "categoryName": "Salgados"
+    },
+    {
+      "id": "66bf9656-a781-4c59-910b-41be857b281a",
+      "name": "Crepioca com presunto e queijo",
+      "imageUrl": "./images/66bf9656-a781-4c59-910b-41be857b281a.jpg",
+      "price": "16.5",
+      "categoryName": "Salgados"
+    }
+  ]
+}
