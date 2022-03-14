@@ -5,16 +5,24 @@ function MainLayout({ pageTitle, footerLabel, children }) {
     <Container
       maxWidth="md"
       sx={{
+        py: 4,
         backgroundColor: "background.default",
         flexGrow: 1,
         display: "flex",
-        flexDirection: "column",
+        flexDirection: "column"
       }}
       disableGutters
     >
-      <AppBar position="static">
+      <AppBar 
+        sx={{
+          left: "50%",
+          transform: "translate(-50%)",
+          maxWidth: "inherit",
+          width: "inherit"  
+        }}
+      >
         <Toolbar>
-          <Typography variant="h6" component="div">
+          <Typography variant="h6" component="div" sx={{p: 2}}>
             {pageTitle}
           </Typography>
         </Toolbar>
@@ -31,8 +39,12 @@ function MainLayout({ pageTitle, footerLabel, children }) {
         color="primary.contrastText"
         height="56px"
         boxShadow="1"
+        position="fixed" 
+        maxWidth="inherit"
+        width="inherit"
+        bottom="0" 
       >
-        <Typography variant="body1" component="div" fontWeight="500">
+        <Typography data-testid="footer" variant="body1" component="div" fontWeight="500">
           {footerLabel}
         </Typography>
       </Box>

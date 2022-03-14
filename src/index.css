@@ -1,6 +1,10 @@
 #root {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  /* height: 100vh; */
   background-color: #96caf0;
+}
+
+#root:first-child {
+  overflow-y: "auto";
 }
