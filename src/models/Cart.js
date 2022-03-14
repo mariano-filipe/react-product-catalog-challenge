@@ -3,15 +3,22 @@ import React, { createContext, useContext, useState } from "react";
 export const CartContext = createContext();
 
 export const CartProvider = ({ children }) => {
-  const [items] = useState([]);
+  const [items, setItems] = useState([]);
 
-  const getItemTotal = () => {
-    console.log("TODO: should compute card total");
-    return 0;
-  };
+  const getItemTotal = () => 
+    items.reduce((acc, item) => acc + parseFloat(item.price) * item.quantity, 0);
+  
+  const addToCart = (product) => {
+    const foundItem = items.find(item => item.name === product.name);
 
-  const addToCart = (product) =>
-    console.log("TODO: add to cart product", product);
+    if (foundItem) {
+      foundItem.quantity++;
+      setItems([...items]);
+    } else {
+      product.quantity = 1;
+      setItems([...items, product]);
+    }
+  }
 
   return (
     <CartContext.Provider
